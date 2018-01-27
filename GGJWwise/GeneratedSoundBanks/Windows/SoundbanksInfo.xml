@@ -27,6 +27,7 @@
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="153085414" Name="Light_Bounce" ObjectPath="\Events\Default Work Unit\Light_Bounce"/>
 				<Event Id="957645723" Name="LightDash" ObjectPath="\Events\Default Work Unit\LightDash"/>
+				<Event Id="3119891651" Name="Magnet_Sound" ObjectPath="\Events\Default Work Unit\Magnet_Sound"/>
 				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="897878801" Name="Sound_Bounce" ObjectPath="\Events\Default Work Unit\Sound_Bounce"/>
@@ -86,6 +87,10 @@
 					<ShortName>JUMP (1).wav</ShortName>
 					<Path>SFX\JUMP (1)_1C9C67B2.wem</Path>
 				</File>
+				<File Id="390875912" Language="SFX">
+					<ShortName>Magnet_Sound_2.wav</ShortName>
+					<Path>SFX\Magnet_Sound_2_24DD8B15.wem</Path>
+				</File>
 				<File Id="424866676" Language="SFX">
 					<ShortName>FTSTP  (4).wav</ShortName>
 					<Path>SFX\FTSTP  (4)_CDB8DE64.wem</Path>
@@ -98,6 +103,10 @@
 					<ShortName>Goutte-EQ37B_01-07.L.wav</ShortName>
 					<Path>SFX\Goutte-EQ37B_01-07.L_1C9C67B2.wem</Path>
 				</File>
+				<File Id="494915853" Language="SFX">
+					<ShortName>Magnet_Sound_3.wav</ShortName>
+					<Path>SFX\Magnet_Sound_3_CF6242AF.wem</Path>
+				</File>
 				<File Id="531514587" Language="SFX">
 					<ShortName>Bounce_Light1.wav</ShortName>
 					<Path>SFX\Bounce_Light1_05754E1E.wem</Path>
@@ -105,6 +114,10 @@
 				<File Id="546536470" Language="SFX">
 					<ShortName>FTSTP  (10).wav</ShortName>
 					<Path>SFX\FTSTP  (10)_6B4809AC.wem</Path>
+				</File>
+				<File Id="620043665" Language="SFX">
+					<ShortName>Magnet_Sound_1.wav</ShortName>
+					<Path>SFX\Magnet_Sound_1_817A970C.wem</Path>
 				</File>
 				<File Id="636394340" Language="SFX">
 					<ShortName>Sound_Power3.wav</ShortName>

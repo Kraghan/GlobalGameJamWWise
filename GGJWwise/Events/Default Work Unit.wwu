@@ -157,6 +157,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Magnet_Sound" ID="{D7DF0692-27DD-4040-9912-C555ACFD225F}">
+					<ChildrenList>
+						<Action Name="" ID="{A1532BEB-C396-4E86-9023-9169B23486A2}" ShortID="19992429">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magnet_Sound" ID="{D3861A32-815A-4D22-8DFF-2BAE57DA9693}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

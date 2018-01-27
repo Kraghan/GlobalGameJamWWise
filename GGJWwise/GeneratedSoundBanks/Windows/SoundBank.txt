@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1584379932	Droplets			\Default Work Unit\Droplets	
 	1960922890	SoundDash			\Default Work Unit\SoundDash	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3119891651	Magnet_Sound			\Default Work Unit\Magnet_Sound	
 	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
 	3833651337	Jump			\Default Work Unit\Jump	
 
@@ -40,11 +41,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	323482280	FTSTP  (3)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (3)_295CF8F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (3)		14014
 	350212611	GGJMusic2First	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2First_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_First_Shot\GGJMusic2First		19083136
 	374707318	JUMP (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\JUMP (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Jump\JUMP (1)		14324
+	390875912	Magnet_Sound_2	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Magnet_Sound_2_24DD8B15.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Magnet_Sound\Magnet_Sound_2		177444
 	424866676	FTSTP  (4)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (4)_CDB8DE64.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (4)		15034
 	435500323	Bounce_Light2	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Light2_FE3B80B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Light_Bounce\Bounce_Light2		81196
 	470040378	Goutte-EQ37B_01-07_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-EQ37B_01-07.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\Goutte-EQ37B_01-07_L		14412
+	494915853	Magnet_Sound_3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Magnet_Sound_3_CF6242AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Magnet_Sound\Magnet_Sound_3		190232
 	531514587	Bounce_Light1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Light1_05754E1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Light_Bounce\Bounce_Light1		71468
 	546536470	FTSTP  (10)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (10)_6B4809AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (10)		22066
+	620043665	Magnet_Sound_1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Magnet_Sound_1_817A970C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Magnet_Sound\Magnet_Sound_1		149220
 	636394340	Sound_Power3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Sound_Power3_2506059A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\SoundDash\Sound_Power3		106372
 	641549876	Sound_Power	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Sound_Power_F573F292.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\SoundDash\Sound_Power		100740
 	673687820	LightTeleport3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LightTeleport3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\LightDash\LightTeleport3		70720
