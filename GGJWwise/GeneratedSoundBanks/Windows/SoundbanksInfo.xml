@@ -25,6 +25,7 @@
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
+				<Event Id="153085414" Name="Light_Bounce" ObjectPath="\Events\Default Work Unit\Light_Bounce"/>
 				<Event Id="957645723" Name="LightDash" ObjectPath="\Events\Default Work Unit\LightDash"/>
 				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
@@ -79,9 +80,17 @@
 					<ShortName>FTSTP  (4).wav</ShortName>
 					<Path>SFX\FTSTP  (4)_CDB8DE64.wem</Path>
 				</File>
+				<File Id="435500323" Language="SFX">
+					<ShortName>Bounce_Light2.wav</ShortName>
+					<Path>SFX\Bounce_Light2_7EAC8DF1.wem</Path>
+				</File>
 				<File Id="470040378" Language="SFX">
 					<ShortName>Goutte-EQ37B_01-07.L.wav</ShortName>
 					<Path>SFX\Goutte-EQ37B_01-07.L_1C9C67B2.wem</Path>
+				</File>
+				<File Id="531514587" Language="SFX">
+					<ShortName>Bounce_Light1.wav</ShortName>
+					<Path>SFX\Bounce_Light1_5906FBAA.wem</Path>
 				</File>
 				<File Id="546536470" Language="SFX">
 					<ShortName>FTSTP  (10).wav</ShortName>
@@ -126,6 +135,10 @@
 				<File Id="1026649110" Language="SFX">
 					<ShortName>FTSTP  (7).wav</ShortName>
 					<Path>SFX\FTSTP  (7)_1BD47B6A.wem</Path>
+				</File>
+				<File Id="1065227647" Language="SFX">
+					<ShortName>Bounce_Light3.wav</ShortName>
+					<Path>SFX\Bounce_Light3_4CC76E7B.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

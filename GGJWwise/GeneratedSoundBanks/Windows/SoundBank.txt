@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	153085414	Light_Bounce			\Default Work Unit\Light_Bounce	
 	202194903	Music_Play			\Default Work Unit\Music_Play	
 	674522502	Land			\Default Work Unit\Land	
 	957645723	LightDash			\Default Work Unit\LightDash	
@@ -7,6 +8,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
 	3833651337	Jump			\Default Work Unit\Jump	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	252131915	Bullet_Time			\Default Work Unit\Bullet_Time	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
@@ -31,7 +35,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	350212611	GGJMusic2First	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2First_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_First_Shot\GGJMusic2First		19083136
 	374707318	JUMP (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\JUMP (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Jump\JUMP (1)		14324
 	424866676	FTSTP  (4)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (4)_CDB8DE64.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (4)		15034
+	435500323	Bounce_Light2	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Light2_7EAC8DF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Light_Bounce\Bounce_Light2		81196
 	470040378	Goutte-EQ37B_01-07_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-EQ37B_01-07.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\Goutte-EQ37B_01-07_L		14412
+	531514587	Bounce_Light1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Light1_5906FBAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Light_Bounce\Bounce_Light1		71468
 	546536470	FTSTP  (10)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (10)_6B4809AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (10)		22066
 	673687820	LightTeleport3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LightTeleport3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\LightDash\LightTeleport3		70720
 	685721748	FTSTP  (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (1)		12420
@@ -43,4 +49,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	976850678	FTSTP  (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (2)_692E5E6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (2)		16676
 	1013477832	LAND (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LAND (2)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Land\LAND (2)		28054
 	1026649110	FTSTP  (7)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (7)_1BD47B6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (7)		22820
+	1065227647	Bounce_Light3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Light3_4CC76E7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Light_Bounce\Bounce_Light3		70264
 

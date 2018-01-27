@@ -115,6 +115,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Light_Bounce" ID="{BCCA8E5B-9DCD-42EA-958D-40C2EEC01AE5}">
+					<ChildrenList>
+						<Action Name="" ID="{382464C7-48CC-4E6E-8F70-B45FB20FDB21}" ShortID="804774040">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light_Bounce" ID="{AF5FAC61-6358-44B1-987D-F6E7AC5BCC4E}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
