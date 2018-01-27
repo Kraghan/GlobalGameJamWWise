@@ -1137,6 +1137,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Magnet_Sound" ID="{D3861A32-815A-4D22-8DFF-2BAE57DA9693}" ShortID="417679540">
 							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1150,6 +1151,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1157,6 +1163,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Rev" ID="{041F0703-7E9F-4878-A5BB-632397AB07AA}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
