@@ -34,6 +34,10 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Lever_Activate" ID="{A40C4A5D-6930-4621-B2E3-29F47D2599E4}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Footsteps" ID="{25F0811F-430A-4A52-AFB6-60EBD41F69C5}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
 							<Position X="4" Y="0"/>
 						</Module>
