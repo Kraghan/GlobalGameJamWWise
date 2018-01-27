@@ -13,6 +13,50 @@
 							<ObjectRef Name="Vent" ID="{7441A0C5-2560-4E9C-9C95-8C67F0CB46E6}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Music_Stop" ID="{B88F984D-DBE8-41D8-8CD9-FCBE12635522}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Light_Bounce" ID="{BCCA8E5B-9DCD-42EA-958D-40C2EEC01AE5}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Sound_Bounce" ID="{2B8F9821-E498-4AC4-8D57-613EDA5D2080}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Droplets" ID="{A3879FA1-8E28-43AF-BB6B-3C7767495FBB}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LightDash" ID="{F93BF347-BC03-4800-95C3-80019F711095}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{25F0811F-430A-4A52-AFB6-60EBD41F69C5}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Play" ID="{30F856B4-4998-4758-88BF-F26D0AE01A1F}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Jump" ID="{920D8A8C-13E7-46F9-9836-20E68AADBD74}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SoundDash" ID="{B5945165-E418-4C87-91DA-B2E1658D5BDD}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Land" ID="{7BDC22D4-76E2-465B-A26E-B271DD4C1402}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wind" ID="{BB81005C-35EA-4E77-A1CC-EE7745BFFAEE}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="6" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

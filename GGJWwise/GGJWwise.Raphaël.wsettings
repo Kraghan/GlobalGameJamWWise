@@ -9,8 +9,11 @@
 				<Property Name="Event Action List\{7BDC22D4-76E2-465B-A26E-B271DD4C1402}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{920D8A8C-13E7-46F9-9836-20E68AADBD74}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A3879FA1-8E28-43AF-BB6B-3C7767495FBB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B5945165-E418-4C87-91DA-B2E1658D5BDD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B88F984D-DBE8-41D8-8CD9-FCBE12635522}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BB81005C-35EA-4E77-A1CC-EE7745BFFAEE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BCCA8E5B-9DCD-42EA-958D-40C2EEC01AE5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D76022FF-BDE7-4522-AAFC-3CF2E08C5813}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F93BF347-BC03-4800-95C3-80019F711095}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -68,8 +71,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="BmMMN1d9Lk+/U0Zwo7nzmw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="PxAzMh/F6EuBeKq/yxW29w=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
+				<Property Name="RTPC\GameParameterSimValue\{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}" Type="Real64" Value="1"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="BmMMN1d9Lk+/U0Zwo7nzmw=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -97,6 +101,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{C75453FB-79EA-4C7E-BD48-6CA18ABEAF2D}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

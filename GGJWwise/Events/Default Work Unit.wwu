@@ -129,6 +129,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SoundDash" ID="{B5945165-E418-4C87-91DA-B2E1658D5BDD}">
+					<ChildrenList>
+						<Action Name="" ID="{ACF65F7B-59CF-4DEE-81A0-C8D0E65F54CA}" ShortID="197106526">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoundDash" ID="{34161CF1-1F17-43CC-9621-1612C756CBCB}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sound_Bounce" ID="{D76022FF-BDE7-4522-AAFC-3CF2E08C5813}">
+					<ChildrenList>
+						<Action Name="" ID="{C16A4646-EB5F-4B7C-9802-7D0B6CD05F82}" ShortID="974969083">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_Bounce" ID="{2B8F9821-E498-4AC4-8D57-613EDA5D2080}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

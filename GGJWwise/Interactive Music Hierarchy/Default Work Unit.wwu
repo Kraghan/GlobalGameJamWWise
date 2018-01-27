@@ -15,6 +15,12 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F49D3E63-6DF9-49A3-9152-21FC8E4587C7}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="New_Wwise_Compressor" ID="{301B61E8-0927-472D-AA49-09FC9DF06705}" WorkUnitID="{F06B84B0-4D28-4DD0-A050-6AD102EA0AEE}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{62DD6E5F-BA00-415B-B370-8512815F9638}" WorkUnitID="{F06B84B0-4D28-4DD0-A050-6AD102EA0AEE}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
 						</Reference>
