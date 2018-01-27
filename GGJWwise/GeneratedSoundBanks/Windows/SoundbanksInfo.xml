@@ -21,9 +21,19 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
+				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="2393190236" Name="TestWwise" ObjectPath="\Events\Default Work Unit\TestWwise"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="300389398" Language="SFX">
+					<ShortName>GGJMusic2Loop.wav</ShortName>
+					<Path>SFX\GGJMusic2Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="350212611" Language="SFX">
+					<ShortName>GGJMusic2First.wav</ShortName>
+					<Path>SFX\GGJMusic2First_F17FB28C.wem</Path>
+				</File>
 				<File Id="472274565" Language="SFX">
 					<ShortName>End_Victory.wav</ShortName>
 					<Path>SFX\End_Victory_1C9C67B2.wem</Path>
