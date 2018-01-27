@@ -21,18 +21,19 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1584379932" Name="Droplets" ObjectPath="\Events\Default Work Unit\Droplets"/>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
-				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
-				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
-				<Event Id="153085414" Name="Light_Bounce" ObjectPath="\Events\Default Work Unit\Light_Bounce"/>
-				<Event Id="957645723" Name="LightDash" ObjectPath="\Events\Default Work Unit\LightDash"/>
-				<Event Id="3119891651" Name="Magnet_Sound" ObjectPath="\Events\Default Work Unit\Magnet_Sound"/>
-				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
-				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="897878801" Name="Sound_Bounce" ObjectPath="\Events\Default Work Unit\Sound_Bounce"/>
-				<Event Id="1960922890" Name="SoundDash" ObjectPath="\Events\Default Work Unit\SoundDash"/>
-				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
+				<Event Id="1584379932" Name="Droplets" ObjectPath="\Events\Default Work Unit\World\Droplets"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Footsteps"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Jump"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Land"/>
+				<Event Id="3680590521" Name="Lever_Activate" ObjectPath="\Events\Default Work Unit\World\Lever_Activate"/>
+				<Event Id="153085414" Name="Light_Bounce" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\Light_Bounce"/>
+				<Event Id="957645723" Name="LightDash" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\LightDash"/>
+				<Event Id="3119891651" Name="Magnet_Sound" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\Magnet_Sound"/>
+				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\World\Music_Play"/>
+				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\World\Music_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="897878801" Name="Sound_Bounce" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\Sound_Bounce"/>
+				<Event Id="1960922890" Name="SoundDash" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\SoundDash"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\World\Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="7900533" Language="SFX">
@@ -154,6 +155,10 @@
 				<File Id="859768990" Language="SFX">
 					<ShortName>LightTeleport2.wav</ShortName>
 					<Path>SFX\LightTeleport2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="957207754" Language="SFX">
+					<ShortName>Lever_Activate.wav</ShortName>
+					<Path>SFX\Lever_Activate_1C9C67B2.wem</Path>
 				</File>
 				<File Id="976850678" Language="SFX">
 					<ShortName>FTSTP  (2).wav</ShortName>
