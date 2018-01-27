@@ -45,6 +45,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Jump" ID="{920D8A8C-13E7-46F9-9836-20E68AADBD74}">
+					<ChildrenList>
+						<Action Name="" ID="{F9FDAB9E-0401-419A-9EA3-0716F75786C1}" ShortID="970602064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{A08B50AD-882B-4760-AFBC-29F1716AD3D8}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{7BDC22D4-76E2-465B-A26E-B271DD4C1402}">
+					<ChildrenList>
+						<Action Name="" ID="{000601C2-6B79-4F0D-9358-240279044B08}" ShortID="928509391">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{5A405C8C-0F00-41D8-A745-8C3B61347807}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

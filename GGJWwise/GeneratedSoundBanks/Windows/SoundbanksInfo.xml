@@ -22,6 +22,8 @@
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -33,6 +35,10 @@
 				<File Id="51343728" Language="SFX">
 					<ShortName>FTSTP  (6).wav</ShortName>
 					<Path>SFX\FTSTP  (6)_1F70FBFA.wem</Path>
+				</File>
+				<File Id="63359783" Language="SFX">
+					<ShortName>LAND (1).wav</ShortName>
+					<Path>SFX\LAND (1)_1C9C67B2.wem</Path>
 				</File>
 				<File Id="118640053" Language="SFX">
 					<ShortName>FTSTP  (9).wav</ShortName>
@@ -50,6 +56,10 @@
 					<ShortName>GGJMusic2First.wav</ShortName>
 					<Path>SFX\GGJMusic2First_F17FB28C.wem</Path>
 				</File>
+				<File Id="374707318" Language="SFX">
+					<ShortName>JUMP (1).wav</ShortName>
+					<Path>SFX\JUMP (1)_1C9C67B2.wem</Path>
+				</File>
 				<File Id="424866676" Language="SFX">
 					<ShortName>FTSTP  (4).wav</ShortName>
 					<Path>SFX\FTSTP  (4)_713CCF40.wem</Path>
@@ -66,9 +76,17 @@
 					<ShortName>FTSTP  (8).wav</ShortName>
 					<Path>SFX\FTSTP  (8)_BF83764E.wem</Path>
 				</File>
+				<File Id="774910877" Language="SFX">
+					<ShortName>JUMP (2).wav</ShortName>
+					<Path>SFX\JUMP (2)_1C9C67B2.wem</Path>
+				</File>
 				<File Id="976850678" Language="SFX">
 					<ShortName>FTSTP  (2).wav</ShortName>
 					<Path>SFX\FTSTP  (2)_9130FC51.wem</Path>
+				</File>
+				<File Id="1013477832" Language="SFX">
+					<ShortName>LAND (2).wav</ShortName>
+					<Path>SFX\LAND (2)_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1026649110" Language="SFX">
 					<ShortName>FTSTP  (7).wav</ShortName>
