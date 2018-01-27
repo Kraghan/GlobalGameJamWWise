@@ -73,6 +73,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Droplets" ID="{A3879FA1-8E28-43AF-BB6B-3C7767495FBB}">
+					<ChildrenList>
+						<Action Name="" ID="{73418974-BC9E-4590-93ED-2508F184094E}" ShortID="606956351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Droplet" ID="{C15442EC-B61D-494F-8E1C-4AE1798E5AA3}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wind" ID="{BB81005C-35EA-4E77-A1CC-EE7745BFFAEE}">
+					<ChildrenList>
+						<Action Name="" ID="{F1A08537-69F4-433C-8330-61AAAEE1514D}" ShortID="894881112">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vent" ID="{7441A0C5-2560-4E9C-9C95-8C67F0CB46E6}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

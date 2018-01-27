@@ -21,11 +21,13 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1584379932" Name="Droplets" ObjectPath="\Events\Default Work Unit\Droplets"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="7900533" Language="SFX">

@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	202194903	Music_Play			\Default Work Unit\Music_Play	
 	674522502	Land			\Default Work Unit\Land	
+	1537061107	Wind			\Default Work Unit\Wind	
+	1584379932	Droplets			\Default Work Unit\Droplets	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
 	3833651337	Jump			\Default Work Unit\Jump	
