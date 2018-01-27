@@ -21,22 +21,58 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
 				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Default Work Unit\Music_Play"/>
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="2393190236" Name="TestWwise" ObjectPath="\Events\Default Work Unit\TestWwise"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="13347709" Language="SFX">
+					<ShortName>FTSTP  (5).wav</ShortName>
+					<Path>SFX\FTSTP  (5)_14948FFF.wem</Path>
+				</File>
+				<File Id="51343728" Language="SFX">
+					<ShortName>FTSTP  (6).wav</ShortName>
+					<Path>SFX\FTSTP  (6)_1F70FBFA.wem</Path>
+				</File>
+				<File Id="118640053" Language="SFX">
+					<ShortName>FTSTP  (9).wav</ShortName>
+					<Path>SFX\FTSTP  (9)_49C13FFD.wem</Path>
+				</File>
 				<File Id="300389398" Language="SFX">
 					<ShortName>GGJMusic2Loop.wav</ShortName>
 					<Path>SFX\GGJMusic2Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="323482280" Language="SFX">
+					<ShortName>FTSTP  (3).wav</ShortName>
+					<Path>SFX\FTSTP  (3)_51C76222.wem</Path>
 				</File>
 				<File Id="350212611" Language="SFX">
 					<ShortName>GGJMusic2First.wav</ShortName>
 					<Path>SFX\GGJMusic2First_F17FB28C.wem</Path>
 				</File>
-				<File Id="472274565" Language="SFX">
-					<ShortName>End_Victory.wav</ShortName>
-					<Path>SFX\End_Victory_1C9C67B2.wem</Path>
+				<File Id="424866676" Language="SFX">
+					<ShortName>FTSTP  (4).wav</ShortName>
+					<Path>SFX\FTSTP  (4)_713CCF40.wem</Path>
+				</File>
+				<File Id="546536470" Language="SFX">
+					<ShortName>FTSTP  (10).wav</ShortName>
+					<Path>SFX\FTSTP  (10)_D49CEA32.wem</Path>
+				</File>
+				<File Id="685721748" Language="SFX">
+					<ShortName>FTSTP  (1).wav</ShortName>
+					<Path>SFX\FTSTP  (1)_1C9C67B2.wem</Path>
+				</File>
+				<File Id="740370175" Language="SFX">
+					<ShortName>FTSTP  (8).wav</ShortName>
+					<Path>SFX\FTSTP  (8)_BF83764E.wem</Path>
+				</File>
+				<File Id="976850678" Language="SFX">
+					<ShortName>FTSTP  (2).wav</ShortName>
+					<Path>SFX\FTSTP  (2)_9130FC51.wem</Path>
+				</File>
+				<File Id="1026649110" Language="SFX">
+					<ShortName>FTSTP  (7).wav</ShortName>
+					<Path>SFX\FTSTP  (7)_1D67D6BD.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	202194903	Music_Play			\Default Work Unit\Music_Play	
-	2393190236	TestWwise			\Default Work Unit\TestWwise	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -14,7 +14,16 @@ Effect plug-ins	ID	Name	Type				Notes
 	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13347709	FTSTP  (5)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (5)_14948FFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (5)		15000
+	51343728	FTSTP  (6)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (6)_1F70FBFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (6)		8862
+	118640053	FTSTP  (9)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (9)_49C13FFD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (9)		13018
 	300389398	GGJMusic2Loop	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2Loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_Loop\GGJMusic2Loop		19083136
+	323482280	FTSTP  (3)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (3)_51C76222.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (3)		14014
 	350212611	GGJMusic2First	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2First_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_First_Shot\GGJMusic2First		19083136
-	472274565	TestWwise	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\End_Victory_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestWwise		682048
+	424866676	FTSTP  (4)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (4)_713CCF40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (4)		15034
+	546536470	FTSTP  (10)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (10)_D49CEA32.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (10)		22066
+	685721748	FTSTP  (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (1)		12420
+	740370175	FTSTP  (8)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (8)_BF83764E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (8)		16118
+	976850678	FTSTP  (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (2)_9130FC51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (2)		16676
+	1026649110	FTSTP  (7)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (7)_1D67D6BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FTSTP  (7)		22820
 

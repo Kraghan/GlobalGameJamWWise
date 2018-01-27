@@ -3,20 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TestWwise" ID="{02AA0F06-A28F-4778-9F58-5E8782BBCD31}">
-					<ChildrenList>
-						<Action Name="" ID="{C31F8E09-4125-4A2A-90C1-C9E3A76A56C0}" ShortID="1048695542">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TestWwise" ID="{D623E3DF-FBA9-491A-8D3C-9BC06F5488AD}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Music_Play" ID="{30F856B4-4998-4758-88BF-F26D0AE01A1F}">
 					<ChildrenList>
 						<Action Name="" ID="{EEEBB0C6-BBB0-4177-8101-72323B468ECF}" ShortID="533192697">
@@ -40,6 +26,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music" ID="{D0F86217-1DC6-48E8-B5F7-196F8D16D5CF}" WorkUnitID="{9D646283-DA56-4329-9772-B71AD899B8D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{25F0811F-430A-4A52-AFB6-60EBD41F69C5}">
+					<ChildrenList>
+						<Action Name="" ID="{14454104-209E-4C95-A915-1FB00CBA75E8}" ShortID="82389751">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{C18E0262-69BE-468B-8D2D-023CD641CA71}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
