@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	202194903	Music_Play			\Default Work Unit\Music_Play	
 	674522502	Land			\Default Work Unit\Land	
+	957645723	LightDash			\Default Work Unit\LightDash	
 	1537061107	Wind			\Default Work Unit\Wind	
 	1584379932	Droplets			\Default Work Unit\Droplets	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
@@ -19,24 +20,27 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7900533	Vent	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Vent_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Vent		11694144
-	13347709	FTSTP  (5)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (5)_14948FFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (5)		15000
-	51343728	FTSTP  (6)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (6)_1F70FBFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (6)		8862
+	13347709	FTSTP  (5)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (5)_BBF1425D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (5)		15000
+	51343728	FTSTP  (6)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (6)_13078F1C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (6)		8862
 	63359783	LAND (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LAND (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Land\LAND (1)		18586
-	118640053	FTSTP  (9)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (9)_49C13FFD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (9)		13018
+	118640053	FTSTP  (9)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (9)_066C25D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (9)		13018
 	144800129	Goutte-11_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-11.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\Goutte-11_L		10738
-	241263403	BLANK	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\BLANK_A89808C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\BLANK		878712
+	241263403	BLANK	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\BLANK_4C0A73FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\BLANK		878712
 	300389398	GGJMusic2Loop	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2Loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_Loop\GGJMusic2Loop		19083136
-	323482280	FTSTP  (3)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (3)_51C76222.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (3)		14014
+	323482280	FTSTP  (3)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (3)_295CF8F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (3)		14014
 	350212611	GGJMusic2First	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2First_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_First_Shot\GGJMusic2First		19083136
 	374707318	JUMP (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\JUMP (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Jump\JUMP (1)		14324
-	424866676	FTSTP  (4)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (4)_713CCF40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (4)		15034
+	424866676	FTSTP  (4)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (4)_CDB8DE64.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (4)		15034
 	470040378	Goutte-EQ37B_01-07_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-EQ37B_01-07.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\Goutte-EQ37B_01-07_L		14412
-	546536470	FTSTP  (10)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (10)_D49CEA32.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (10)		22066
+	546536470	FTSTP  (10)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (10)_6B4809AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (10)		22066
+	673687820	LightTeleport3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LightTeleport3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\LightDash\LightTeleport3		70720
 	685721748	FTSTP  (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (1)		12420
 	690794055	Goutte-09_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-09.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Droplet\Goutte-09_L		13354
+	712327761	LightTeleport1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LightTeleport1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\LightDash\LightTeleport1		70464
 	740370175	FTSTP  (8)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (8)_BF83764E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (8)		16118
 	774910877	JUMP (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\JUMP (2)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Jump\JUMP (2)		17234
-	976850678	FTSTP  (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (2)_9130FC51.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (2)		16676
+	859768990	LightTeleport2	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LightTeleport2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\LightDash\LightTeleport2		63040
+	976850678	FTSTP  (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (2)_692E5E6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (2)		16676
 	1013477832	LAND (2)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LAND (2)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Land\LAND (2)		28054
-	1026649110	FTSTP  (7)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (7)_1D67D6BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (7)		22820
+	1026649110	FTSTP  (7)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (7)_1BD47B6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Footsteps\FTSTP  (7)		22820
 

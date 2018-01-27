@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3233103F-C51F-4BE8-8178-AABFCB15B6F7}" SchemaVersion="80">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{3233103F-C51F-4BE8-8178-AABFCB15B6F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3233103F-C51F-4BE8-8178-AABFCB15B6F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Bullet_Time" ID="{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

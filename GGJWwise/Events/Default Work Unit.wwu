@@ -101,6 +101,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LightDash" ID="{F93BF347-BC03-4800-95C3-80019F711095}">
+					<ChildrenList>
+						<Action Name="" ID="{13464F1D-098D-4CE3-88BE-56E87DDE6317}" ShortID="750309705">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightDash" ID="{6C021029-2936-4475-8498-02AD0718CDDD}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

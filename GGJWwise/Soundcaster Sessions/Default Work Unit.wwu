@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ACB24843-122D-49D4-B2A0-B59D263BFE30}" SchemaVersion="80">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{ACB24843-122D-49D4-B2A0-B59D263BFE30}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ACB24843-122D-49D4-B2A0-B59D263BFE30}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Mix" ID="{C75453FB-79EA-4C7E-BD48-6CA18ABEAF2D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="LightDash" ID="{F93BF347-BC03-4800-95C3-80019F711095}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Vent" ID="{7441A0C5-2560-4E9C-9C95-8C67F0CB46E6}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Bullet_Time" ID="{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

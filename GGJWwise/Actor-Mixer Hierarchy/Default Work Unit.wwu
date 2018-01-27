@@ -4,6 +4,64 @@
 		<WorkUnit Name="Default Work Unit" ID="{E81C4C92-255F-4E52-BF41-1050530C5E53}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Main" ID="{92D1D7AA-176B-460B-BF9F-8FB523BA69FC}" ShortID="509812887">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{1B154971-BC6A-4ADC-A175-599015BFC9AC}" ShortID="469701632">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Bullet_Time" ID="{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}" WorkUnitID="{3233103F-C51F-4BE8-8178-AABFCB15B6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6EF5BC41-D22A-431D-AF40-FF75E604E77E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>47</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{35AC2C73-08E2-4B57-89F4-C5F3ACE178B6}" ShortID="711098649">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Bullet_Time" ID="{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}" WorkUnitID="{3233103F-C51F-4BE8-8178-AABFCB15B6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A14BE0A7-CBC4-4C69-A816-14159118A1AB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1128</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>54</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F49D3E63-6DF9-49A3-9152-21FC8E4587C7}"/>
@@ -615,6 +673,104 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="FTSTP  (10)" ID="{AC7C5DA1-C96C-4A0B-A15B-350FCD8E85C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="LightDash" ID="{6C021029-2936-4475-8498-02AD0718CDDD}" ShortID="960102115">
+							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{29E8FD96-C226-4BD8-88F6-3FC56956EE52}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F49D3E63-6DF9-49A3-9152-21FC8E4587C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Rev" ID="{041F0703-7E9F-4878-A5BB-632397AB07AA}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LightTeleport1" ID="{056D6DAC-F54C-42B4-80CC-FA19CD1432B4}" ShortID="1435607">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F49D3E63-6DF9-49A3-9152-21FC8E4587C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightTeleport1" ID="{40DD5273-E4B1-4852-BB37-0815892A4842}" ShortID="712327761">
+											<Language>SFX</Language>
+											<AudioFile>LightTeleport1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightTeleport1" ID="{40DD5273-E4B1-4852-BB37-0815892A4842}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LightTeleport2" ID="{00A035A1-1188-440B-B21A-759B779DBA3E}" ShortID="69422826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F49D3E63-6DF9-49A3-9152-21FC8E4587C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightTeleport2" ID="{FD4D2093-0234-461E-B481-FAAD477B837A}" ShortID="859768990">
+											<Language>SFX</Language>
+											<AudioFile>LightTeleport2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightTeleport2" ID="{FD4D2093-0234-461E-B481-FAAD477B837A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LightTeleport3" ID="{E764A47E-E80A-4284-84DC-66C30DDE63ED}" ShortID="588431148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F49D3E63-6DF9-49A3-9152-21FC8E4587C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B95DF31A-7DE6-481B-8FD6-7C084C5DF8DD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LightTeleport3" ID="{FFBF04F5-1C8A-4EDC-8EC8-79B42EFB717C}" ShortID="673687820">
+											<Language>SFX</Language>
+											<AudioFile>LightTeleport3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LightTeleport3" ID="{FFBF04F5-1C8A-4EDC-8EC8-79B42EFB717C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
