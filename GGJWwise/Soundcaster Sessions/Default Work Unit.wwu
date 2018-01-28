@@ -73,7 +73,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Bullet_Time" ID="{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}"/>
-							<Value>1</Value>
+							<Value>1.13450436567697E-315</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
