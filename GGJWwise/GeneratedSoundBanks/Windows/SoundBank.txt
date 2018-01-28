@@ -10,10 +10,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	1584379932	Droplets			\Default Work Unit\World\Droplets	
 	1960922890	SoundDash			\Default Work Unit\Kodama (Main Character\Competences\SoundDash	
 	2385628198	Footsteps			\Default Work Unit\Kodama (Main Character\Footsteps	
+	2479269570	Door_Move_Stop			\Default Work Unit\World\Door_Move_Stop	
 	3119891651	Magnet_Sound			\Default Work Unit\Kodama (Main Character\Competences\Magnet_Sound	
 	3227181061	Music_Stop			\Default Work Unit\World\Music_Stop	
 	3680590521	Lever_Activate			\Default Work Unit\World\Lever_Activate	
 	3833651337	Jump			\Default Work Unit\Kodama (Main Character\Jump	
+	4135907392	Door_Move_Play			\Default Work Unit\World\Door_Move_Play	
+	4244962368	Door_Stop			\Default Work Unit\World\Door_Stop	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	252131915	Bullet_Time			\Default Work Unit\Bullet_Time	
@@ -41,6 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	162810563	Bounce_Sound1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Sound1_B3F7F752.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Competences\Sound_Bounce\Bounce_Sound1		32580
 	221709418	Ui_2	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Ui_2_CF8E6313.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\UI\Ui_2		110092
 	241263403	BLANK	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\BLANK_4C0A73FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\World\Droplet\BLANK		878712
+	245486499	Door_Stop	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Door_Stop_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\World\Door_Stop		432192
 	274665557	Ui_1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Ui_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\UI\Ui_1		53824
 	300389398	GGJMusic2Loop	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2Loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_Loop\GGJMusic2Loop		19083136
 	323482280	FTSTP  (3)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (3)_295CF8F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Footsteps\FTSTP  (3)		14014
@@ -56,6 +60,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	620043665	Magnet_Sound_1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Magnet_Sound_1_817A970C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Competences\Magnet_Sound\Magnet_Sound_1		149220
 	636394340	Sound_Power3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Sound_Power3_2506059A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Competences\SoundDash\Sound_Power3		106372
 	641549876	Sound_Power	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Sound_Power_F573F292.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Competences\SoundDash\Sound_Power		100740
+	670150764	Door	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Door_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\World\Door		687936
 	673687820	LightTeleport3	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\LightTeleport3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Competences\LightDash\LightTeleport3		70720
 	685721748	FTSTP  (1)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (1)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Footsteps\FTSTP  (1)		12420
 	690794055	Goutte-09_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-09.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\World\Droplet\Goutte-09_L		13354

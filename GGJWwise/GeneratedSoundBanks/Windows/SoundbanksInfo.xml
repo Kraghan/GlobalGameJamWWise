@@ -21,6 +21,9 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4135907392" Name="Door_Move_Play" ObjectPath="\Events\Default Work Unit\World\Door_Move_Play"/>
+				<Event Id="2479269570" Name="Door_Move_Stop" ObjectPath="\Events\Default Work Unit\World\Door_Move_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="4244962368" Name="Door_Stop" ObjectPath="\Events\Default Work Unit\World\Door_Stop"/>
 				<Event Id="1584379932" Name="Droplets" ObjectPath="\Events\Default Work Unit\World\Droplets"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Footsteps"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Jump"/>
@@ -77,6 +80,10 @@
 				<File Id="241263403" Language="SFX">
 					<ShortName>BLANK.wav</ShortName>
 					<Path>SFX\BLANK_4C0A73FE.wem</Path>
+				</File>
+				<File Id="245486499" Language="SFX">
+					<ShortName>Door_Stop.wav</ShortName>
+					<Path>SFX\Door_Stop_1C9C67B2.wem</Path>
 				</File>
 				<File Id="274665557" Language="SFX">
 					<ShortName>Ui_1.wav</ShortName>
@@ -137,6 +144,10 @@
 				<File Id="641549876" Language="SFX">
 					<ShortName>Sound_Power.wav</ShortName>
 					<Path>SFX\Sound_Power_F573F292.wem</Path>
+				</File>
+				<File Id="670150764" Language="SFX">
+					<ShortName>Door.wav</ShortName>
+					<Path>SFX\Door_1C9C67B2.wem</Path>
 				</File>
 				<File Id="673687820" Language="SFX">
 					<ShortName>LightTeleport3.wav</ShortName>
