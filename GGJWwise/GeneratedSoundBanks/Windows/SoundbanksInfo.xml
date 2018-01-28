@@ -21,9 +21,7 @@
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4135907392" Name="Door_Move_Play" ObjectPath="\Events\Default Work Unit\World\Door_Move_Play"/>
-				<Event Id="2479269570" Name="Door_Move_Stop" ObjectPath="\Events\Default Work Unit\World\Door_Move_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="4244962368" Name="Door_Stop" ObjectPath="\Events\Default Work Unit\World\Door_Stop"/>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Death"/>
 				<Event Id="1584379932" Name="Droplets" ObjectPath="\Events\Default Work Unit\World\Droplets"/>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Footsteps"/>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Jump"/>
@@ -51,7 +49,7 @@
 				</File>
 				<File Id="14766695" Language="SFX">
 					<ShortName>Bounce_Sound3.wav</ShortName>
-					<Path>SFX\Bounce_Sound3_8BDA72D4.wem</Path>
+					<Path>SFX\Bounce_Sound3_B72B9312.wem</Path>
 				</File>
 				<File Id="51343728" Language="SFX">
 					<ShortName>FTSTP  (6).wav</ShortName>
@@ -71,23 +69,23 @@
 				</File>
 				<File Id="162810563" Language="SFX">
 					<ShortName>Bounce_Sound1.wav</ShortName>
-					<Path>SFX\Bounce_Sound1_B3F7F752.wem</Path>
+					<Path>SFX\Bounce_Sound1_423BDD94.wem</Path>
 				</File>
 				<File Id="221709418" Language="SFX">
 					<ShortName>Ui_2.wav</ShortName>
-					<Path>SFX\Ui_2_CF8E6313.wem</Path>
+					<Path>SFX\Ui_2_5E5A11BF.wem</Path>
 				</File>
 				<File Id="241263403" Language="SFX">
 					<ShortName>BLANK.wav</ShortName>
 					<Path>SFX\BLANK_4C0A73FE.wem</Path>
 				</File>
-				<File Id="245486499" Language="SFX">
-					<ShortName>Door_Stop.wav</ShortName>
-					<Path>SFX\Door_Stop_1C9C67B2.wem</Path>
-				</File>
 				<File Id="274665557" Language="SFX">
 					<ShortName>Ui_1.wav</ShortName>
 					<Path>SFX\Ui_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="279165022" Language="SFX">
+					<ShortName>Death.wav</ShortName>
+					<Path>SFX\Death_1C9C67B2.wem</Path>
 				</File>
 				<File Id="300389398" Language="SFX">
 					<ShortName>GGJMusic2Loop.wav</ShortName>
@@ -107,7 +105,7 @@
 				</File>
 				<File Id="390875912" Language="SFX">
 					<ShortName>Magnet_Sound_2.wav</ShortName>
-					<Path>SFX\Magnet_Sound_2_24DD8B15.wem</Path>
+					<Path>SFX\Magnet_Sound_2_27A67744.wem</Path>
 				</File>
 				<File Id="424866676" Language="SFX">
 					<ShortName>FTSTP  (4).wav</ShortName>
@@ -123,7 +121,7 @@
 				</File>
 				<File Id="494915853" Language="SFX">
 					<ShortName>Magnet_Sound_3.wav</ShortName>
-					<Path>SFX\Magnet_Sound_3_CF6242AF.wem</Path>
+					<Path>SFX\Magnet_Sound_3_2CA8CD42.wem</Path>
 				</File>
 				<File Id="531514587" Language="SFX">
 					<ShortName>Bounce_Light1.wav</ShortName>
@@ -135,7 +133,7 @@
 				</File>
 				<File Id="620043665" Language="SFX">
 					<ShortName>Magnet_Sound_1.wav</ShortName>
-					<Path>SFX\Magnet_Sound_1_817A970C.wem</Path>
+					<Path>SFX\Magnet_Sound_1_599253E8.wem</Path>
 				</File>
 				<File Id="636394340" Language="SFX">
 					<ShortName>Sound_Power3.wav</ShortName>
@@ -144,10 +142,6 @@
 				<File Id="641549876" Language="SFX">
 					<ShortName>Sound_Power.wav</ShortName>
 					<Path>SFX\Sound_Power_F573F292.wem</Path>
-				</File>
-				<File Id="670150764" Language="SFX">
-					<ShortName>Door.wav</ShortName>
-					<Path>SFX\Door_1C9C67B2.wem</Path>
 				</File>
 				<File Id="673687820" Language="SFX">
 					<ShortName>LightTeleport3.wav</ShortName>
@@ -187,7 +181,7 @@
 				</File>
 				<File Id="1006054932" Language="SFX">
 					<ShortName>Bounce_Sound2.wav</ShortName>
-					<Path>SFX\Bounce_Sound2_F7E0225F.wem</Path>
+					<Path>SFX\Bounce_Sound2_C71A7210.wem</Path>
 				</File>
 				<File Id="1013477832" Language="SFX">
 					<ShortName>LAND (2).wav</ShortName>

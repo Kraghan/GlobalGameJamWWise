@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2505115407" DateHigh="30644148"/>
+	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="845575985" DateHigh="30644188"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Attenuations\Default Work Unit.wwu" DateLow="930189404" DateHigh="30643952"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Audio Devices\Default Work Unit.wwu" DateLow="930371962" DateHigh="30643952"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="930261485" DateHigh="30643952"/>
@@ -20,9 +20,9 @@
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3499815217" DateHigh="30631843"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3499820235" DateHigh="30631843"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Effects\Factory McDSP Effects.wwu" DateLow="3320952635" DateHigh="30631843"/>
-	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Events\Default Work Unit.wwu" DateLow="3364832242" DateHigh="30644144"/>
+	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Events\Default Work Unit.wwu" DateLow="844296798" DateHigh="30644188"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Game Parameters\Default Work Unit.wwu" DateLow="2340094119" DateHigh="30644119"/>
-	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\GGJWwise.Raphaël.wsettings" DateLow="1409446711" DateHigh="30644150"/>
+	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\GGJWwise.Raphaël.wsettings" DateLow="846357627" DateHigh="30644188"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\GGJWwise.wproj" DateLow="348730501" DateHigh="30643956"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2505150492" DateHigh="30644148"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3780815737" DateHigh="30644061"/>
@@ -32,7 +32,7 @@
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Queries\Default Work Unit.wwu" DateLow="930361937" DateHigh="30643952"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Queries\Factory Queries.wwu" DateLow="3440876747" DateHigh="30631843"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\SoundBanks\Default Work Unit.wwu" DateLow="1619434315" DateHigh="30643958"/>
-	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3365729040" DateHigh="30644144"/>
+	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="845761902" DateHigh="30644188"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\States\Default Work Unit.wwu" DateLow="930532393" DateHigh="30643952"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Switches\Default Work Unit.wwu" DateLow="930452176" DateHigh="30643952"/>
 	<ValidationCacheItem File="D:\GGJWwise\GGJWwise\Triggers\Default Work Unit.wwu" DateLow="930301599" DateHigh="30643952"/>
