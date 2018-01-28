@@ -144,6 +144,7 @@
 								<Action Name="" ID="{34331F10-CFBF-469C-8CA7-79EDB606785B}" ShortID="443832310">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -190,6 +191,38 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Lever_Activate" ID="{175D1521-C39E-415B-96F0-B62CEFF2596F}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{3CAE07A5-2E75-446E-B39C-5CA89D1B13F6}" ShortID="630540218">
+					<ChildrenList>
+						<Event Name="UI_Chose" ID="{7BF4D4B0-4683-4D52-B4BF-1B9BE4BA1347}">
+							<ChildrenList>
+								<Action Name="" ID="{D04B10FF-2ACE-4758-990F-2C246DE4E58D}" ShortID="131207330">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui_1" ID="{13996B40-C0E3-4CE8-B517-DF2C519FD611}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Validate" ID="{A3017521-F2C5-45A6-B8B2-2ECDE86A00BD}">
+							<ChildrenList>
+								<Action Name="" ID="{2D836626-F840-4EEE-A863-781BBFFB068B}" ShortID="446065651">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui_2" ID="{24450E1F-6147-46B1-866F-CDA370FD6665}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

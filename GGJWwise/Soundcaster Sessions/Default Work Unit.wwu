@@ -10,6 +10,14 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="UI_Chose" ID="{7BF4D4B0-4683-4D52-B4BF-1B9BE4BA1347}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Validate" ID="{A3017521-F2C5-45A6-B8B2-2ECDE86A00BD}" WorkUnitID="{703930B1-C9ED-4023-83F8-2FE5FCEC5017}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Vent" ID="{7441A0C5-2560-4E9C-9C95-8C67F0CB46E6}" WorkUnitID="{E81C4C92-255F-4E52-BF41-1050530C5E53}"/>
 							<Position X="1" Y="0"/>
 						</Module>

@@ -33,6 +33,8 @@
 				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\World\Music_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="897878801" Name="Sound_Bounce" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\Sound_Bounce"/>
 				<Event Id="1960922890" Name="SoundDash" ObjectPath="\Events\Default Work Unit\Kodama (Main Character\Competences\SoundDash"/>
+				<Event Id="1078618618" Name="UI_Chose" ObjectPath="\Events\Default Work Unit\UI\UI_Chose"/>
+				<Event Id="873092944" Name="UI_Validate" ObjectPath="\Events\Default Work Unit\UI\UI_Validate"/>
 				<Event Id="1537061107" Name="Wind" ObjectPath="\Events\Default Work Unit\World\Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -68,9 +70,17 @@
 					<ShortName>Bounce_Sound1.wav</ShortName>
 					<Path>SFX\Bounce_Sound1_B3F7F752.wem</Path>
 				</File>
+				<File Id="221709418" Language="SFX">
+					<ShortName>Ui_2.wav</ShortName>
+					<Path>SFX\Ui_2_CF8E6313.wem</Path>
+				</File>
 				<File Id="241263403" Language="SFX">
 					<ShortName>BLANK.wav</ShortName>
 					<Path>SFX\BLANK_4C0A73FE.wem</Path>
+				</File>
+				<File Id="274665557" Language="SFX">
+					<ShortName>Ui_1.wav</ShortName>
+					<Path>SFX\Ui_1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="300389398" Language="SFX">
 					<ShortName>GGJMusic2Loop.wav</ShortName>

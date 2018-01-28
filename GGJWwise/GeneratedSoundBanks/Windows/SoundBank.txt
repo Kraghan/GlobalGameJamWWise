@@ -2,8 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	153085414	Light_Bounce			\Default Work Unit\Kodama (Main Character\Competences\Light_Bounce	
 	202194903	Music_Play			\Default Work Unit\World\Music_Play	
 	674522502	Land			\Default Work Unit\Kodama (Main Character\Land	
+	873092944	UI_Validate			\Default Work Unit\UI\UI_Validate	
 	897878801	Sound_Bounce			\Default Work Unit\Kodama (Main Character\Competences\Sound_Bounce	
 	957645723	LightDash			\Default Work Unit\Kodama (Main Character\Competences\LightDash	
+	1078618618	UI_Chose			\Default Work Unit\UI\UI_Chose	
 	1537061107	Wind			\Default Work Unit\World\Wind	
 	1584379932	Droplets			\Default Work Unit\World\Droplets	
 	1960922890	SoundDash			\Default Work Unit\Kodama (Main Character\Competences\SoundDash	
@@ -37,7 +39,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	118640053	FTSTP  (9)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (9)_066C25D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Footsteps\FTSTP  (9)		13018
 	144800129	Goutte-11_L	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Goutte-11.L_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\World\Droplet\Goutte-11_L		10738
 	162810563	Bounce_Sound1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Bounce_Sound1_B3F7F752.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Competences\Sound_Bounce\Bounce_Sound1		32580
+	221709418	Ui_2	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Ui_2_CF8E6313.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\UI\Ui_2		110092
 	241263403	BLANK	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\BLANK_4C0A73FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\World\Droplet\BLANK		878712
+	274665557	Ui_1	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\Ui_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\UI\Ui_1		53824
 	300389398	GGJMusic2Loop	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2Loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_Loop\GGJMusic2Loop		19083136
 	323482280	FTSTP  (3)	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\FTSTP  (3)_295CF8F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Kodama (Main Character\Footsteps\FTSTP  (3)		14014
 	350212611	GGJMusic2First	D:\GGJWwise\GGJWwise\.cache\Windows\SFX\GGJMusic2First_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_First_Shot\GGJMusic2First		19083136
