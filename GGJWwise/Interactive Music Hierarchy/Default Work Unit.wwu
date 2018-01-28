@@ -5,6 +5,34 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Music" ID="{D0F86217-1DC6-48E8-B5F7-196F8D16D5CF}" ShortID="922826597">
 					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{D4FE613D-04F4-4D03-8EC5-1B26CE597E82}" ShortID="1070278582">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Bullet_Time" ID="{00B5A831-44AE-4440-B9AD-B3E7CAE4698A}" WorkUnitID="{3233103F-C51F-4BE8-8178-AABFCB15B6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{14744E42-4BB2-44B6-B149-09FF80E1C8E4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>63</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>2</Value>
